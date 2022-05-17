@@ -359,8 +359,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3249068"
-     inkscape:cx="510.91073"
-     inkscape:cy="277.10017"
+     inkscape:cx="530.34175"
+     inkscape:cy="355.59626"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1459,7 +1459,7 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';stroke-width:0.264583">upper bound </tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:oblique;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light Oblique';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-style:oblique;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light Oblique';text-align:center;baseline-shift:baseline;text-anchor:middle;stroke-width:0.264583"
        x="144.33064"
        y="12.656705"
        id="text7758"><tspan
@@ -1467,15 +1467,15 @@
          id="tspan7756"
          x="144.91769"
          y="12.656705"
-         style="font-style:oblique;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light Oblique';stroke-width:0.264583">Maximize <tspan
-   style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Oblique'"
+         style="font-style:oblique;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Light Oblique';baseline-shift:baseline;stroke-width:0.264583">Maximize <tspan
+   style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Oblique';baseline-shift:baseline"
    id="tspan1901">∑<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan1913">(i,j) ∈ E</tspan> z<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan1903">i,j</tspan>xi<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan1905">,j</tspan></tspan> subject to linear constraints </tspan></text>
+   id="tspan1383">(i,j) ∈ E</tspan> z<tspan
+   id="tspan1903"
+   style="font-size:4.23333px;baseline-shift:sub">i,j</tspan>x<tspan
+   style="font-size:4.23333px;baseline-shift:sub"
+   id="tspan1386">i,j</tspan></tspan> subject to linear constraints </tspan></text>
     <circle
        style="fill:none;stroke:#e6e6e6;stroke-width:0.315661;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path7780"

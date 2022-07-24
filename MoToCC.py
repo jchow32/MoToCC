@@ -1,4 +1,4 @@
-# findOptimalSet.py
+# MoToCC.py
 # given normalized expression information for cells and their similarity, choose an optimal subset that maximizes
 # the objective function
 

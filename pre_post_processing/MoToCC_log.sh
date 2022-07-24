@@ -1,4 +1,4 @@
-# C-TULPSE pre-processing
+# MoToCC pre-processing
 
 # to pre-process and save expression data for brain and kidney
 # note example commands for dimensionality reduction, silhouette score, and percent composition plots within R scripts
@@ -30,8 +30,8 @@ head -n1 norm_scale_exp_gene.csv | sed 's/,/\n/g' > gene_ids.txt
 cut -d, -f1 RNA_graph.csv | tail -n+2 > cell_ids.txt
 
 
-# C-TULPSE
-python3 C_TULPSE.py \
+# MoToCC
+python3 MoToCC.py \
 -e exp_norm_scale.hdf5 \
 -sim sim_sparse.npz \
 -knn knn_sparse.npz \

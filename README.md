@@ -46,7 +46,7 @@ Python packages needed to run MoToCC are listed [here](https://github.com/jchow3
     
 Example command with quickstart disabled: 
 ```
-python3 C_TULPSE.py \
+python3 MoToCC.py \
 -e $expression  \
 -sim $similarity  \
 -knn $knn \

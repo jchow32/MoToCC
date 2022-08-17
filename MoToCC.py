@@ -165,8 +165,8 @@ def calculate_gene_scores(sim_df, exp_df, valid_cell_idx, module_combos, weight_
             gene_2 = gene_pair[1]
             n_i = exp_array[i][gene_1]
             p_j = exp_array[j][gene_2]
-            p_i = exp_array[i][gene_1]
-            n_j = exp_array[j][gene_2]
+            p_i = exp_array[i][gene_2]
+            n_j = exp_array[j][gene_1]
 
             edge_weight += weight * ((n_i * p_j) + (p_i * n_j))
 

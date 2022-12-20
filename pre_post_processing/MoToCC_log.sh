@@ -48,3 +48,19 @@ do
   sol="M2_${i}_LPonLSCC.txt"
   python3 get_labels.py $sol cell_metadata.csv OutFile_Composition
 done
+
+### Example post-processing for generation of representative randomized modules, calculation of naive s_h
+# create randomized modules of same size as true module, with proportional expression levels 
+python3 proportion_gene_exp.py ASD_plus_ID_M1_module.txt cortex_top_exp_genes M1
+python3 proportion_gene_exp.py ASD_w_ID_M2_module.txt cortex_top_exp_genes M2
+python3 proportion_gene_exp.py Optimal_SCN1A cortex_top_exp_genes SCN1A
+python3 proportion_gene_exp.py ASD_mod13_Group1_valid.txt cortex_top_exp_genes ASD_mod13_Group1
+python3 proportion_gene_exp.py Parkinson/C3_module_valid.txt Parkinson/parkinson_top_exp_genes_symbol C3 
+
+# return naive s_h for selected cells < k 
+python3 heuristic_summation.py codex/cell_metadata.csv ASD_plus_ID_M1_module.txt exp_norm_scale.hdf5 M1_Upregulate
+python3 heuristic_summation.py codex/cell_metadata.csv ASD_plus_ID_M1_module.txt exp_norm_scale.hdf5 M1
+python3 heuristic_summation.py codex/cell_metadata.csv  ASD_w_ID_M2_module.txt exp_norm_scale.hdf5 M2
+python3 heuristic_summation.py codex/cell_metadata.csv  Optimal_SCN1A exp_norm_scale.hdf5 SCN1A
+python3 heuristic_summation.py codex/cell_metadata.csv  ASD_mod13_Group1_valid.txt exp_norm_scale.hdf5 ASD_mod13_Group1
+python3 heuristic_summation.py get_labels_input.txt C3_module_valid.txt  exp_norm_scale.hdf5 C3
